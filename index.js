@@ -31,6 +31,7 @@ app.use("/auth", authRouter);
 console.log("first");
 app.use("/posts", postsRouter);
 app.use("/user", userRouter);
+console.log("first");
 connect();
 app.get("/", (req, res) => {
   return res.status(200).json({
